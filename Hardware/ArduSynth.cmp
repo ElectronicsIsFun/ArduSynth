@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11/27/2014 5:40:50 PM
+
+BeginCmp
+TimeStamp = /54728414;
+Reference = C1;
+ValeurCmp = 0.1UF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54728436;
+Reference = C2;
+ValeurCmp = 0.1UF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /547283B5;
+Reference = C3;
+ValeurCmp = 0.01UF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727886;
+Reference = D1;
+ValeurCmp = LED_T3_GREEN;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54726877;
+Reference = J1;
+ValeurCmp = STEREO_JACK_3.5MM;
+IdModule  = JACK_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547268B0;
+Reference = J2;
+ValeurCmp = STEREO_JACK_3.5MM;
+IdModule  = JACK_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5472745C;
+Reference = P1;
+ValeurCmp = ARD_CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727517;
+Reference = P2;
+ValeurCmp = ADR_CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727532;
+Reference = P3;
+ValeurCmp = ARD_CONN_10;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727477;
+Reference = P4;
+ValeurCmp = ARD_CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727E17;
+Reference = R1;
+ValeurCmp = 3.3K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727E50;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727E80;
+Reference = R3;
+ValeurCmp = 270;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54727EB0;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5472557B;
+Reference = RV1;
+ValeurCmp = POT10K;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54725596;
+Reference = RV2;
+ValeurCmp = POT10K;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /547255B1;
+Reference = RV3;
+ValeurCmp = POT10K;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /547255CC;
+Reference = RV4;
+ValeurCmp = POT10K;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /547255E7;
+Reference = RV5;
+ValeurCmp = POT10K;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54726F00;
+Reference = RV6;
+ValeurCmp = POT10K;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54724C53;
+Reference = SW1;
+ValeurCmp = SW_12X12MM;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+EndListe
