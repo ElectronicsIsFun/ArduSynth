@@ -41,6 +41,7 @@ LIBS:Resistor_330
 LIBS:Resistor_3300
 LIBS:Capacitor_0p01uf
 LIBS:Capacitor_0p1uf
+LIBS:sw_12x12mm
 LIBS:ArduSynth-cache
 EELAYER 27 0
 EELAYER END
@@ -48,7 +49,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "ArduSynth Shield"
-Date "27 nov 2014"
+Date "1 dec 2014"
 Rev "A"
 Comp "Electronics Is Fun / uCHobby"
 Comment1 ""
@@ -735,32 +736,20 @@ Text Label 15700 5750 0    60   ~ 0
 GND
 Text Label 4750 3750 0    60   ~ 0
 GND
-Text Label 5500 6900 0    60   ~ 0
-VCF_PEAK
 Text Label 5600 6800 0    60   ~ 0
 ADJ2
-Text Label 6400 6650 0    60   ~ 0
+Text Label 6400 6700 0    60   ~ 0
 ADJ3
-Text Label 7200 6600 0    60   ~ 0
-ADJ4
-Text Label 8150 6450 0    60   ~ 0
-ADJ5
 Text Label 12000 6700 0    60   ~ 0
 TRIGGER
-Text Label 14900 6250 0    60   ~ 0
+Text Label 14600 6250 0    60   ~ 0
 AUDIO OUT
 Text Label 4900 6900 0    60   ~ 0
 ADJ1
-Text Label 5600 6800 0    60   ~ 0
-ADJ3
 Text Label 7050 6600 0    60   ~ 0
 ADJ4
 Text Label 8200 6500 0    60   ~ 0
 ADJ5
-Text Label 12300 3750 0    60   ~ 0
-ADJ3
-Text Label 12500 6850 0    60   ~ 0
-ADJ3
 Text Label 12450 8000 0    60   ~ 0
 GND
 $EndSCHEMATC
