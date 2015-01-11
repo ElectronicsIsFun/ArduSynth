@@ -1,50 +1,44 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 11/30/2014 6:22:27 PM
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 1/10/2015 4:08:44 PM
 #Cmp ( order = Reference )
-| C1         0.1UF       ; ~           ; Mouser      ; 594-K104K15X7RF5UH5
-| C2         0.1UF       ; ~           ; Mouser      ; 594-K104K15X7RF5UH5
-| C3         0.01UF      ; ~           ; Mouser      ; 594-K103K15X7RF5UH5
-| D1         LED_T3_GREEN; ~           ; Mouser      ; 696-SSFLX453LGD99
+| C1         0.1UF       ; C1          ; Mouser      ; 594-K104K15X7RF5UH5
+| C2         0.1UF       ; C1          ; Mouser      ; 594-K104K15X7RF5UH5
+| C3         0.01UF      ; C1          ; Mouser      ; 594-K103K15X7RF5UH5
+| D1         LED_T3_GREEN; LED-3MM     ; Mouser      ; 696-SSFLX453LGD99
 | J1         STEREO_JACK_3.5MM; JACK_3.5mm  ; Mouser      ; 502-35RASMT4BHNTRX
 | J2         STEREO_JACK_3.5MM; JACK_3.5mm  ; Mouser      ; 502-35RASMT4BHNTRX
-| P1         ARD_CONN_8  ; ~           ; Mouser      ; 782-A000085 
-| P2         ADR_CONN_6  ; ~           ; Mouser      ; 782-A000084 
-| P3         ARD_CONN_10 ; ~           ; Mouser      ; 782-A000086 
-| P4         ARD_CONN_8  ; ~           ; Mouser      ; 782-A000085 
-| R1         3.3K        ; ~           ; Mouser      ; 660-MF1/4LCT52R332J
-| R2         330         ; ~           ; Mouser      ; 660-MF1/4LCT52R331J
-| R3         270         ; ~           ; Mouser      ; 660-MF1/4LCT52R271J
-| R4         100         ; ~           ; Mouser      ; 660-MF1/4LCT52R101J
-| RV1        POT10K      ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| RV2        POT10K      ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| RV3        POT10K      ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| RV4        POT10K      ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| RV5        POT10K      ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| RV6        POT10K      ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| SW1        SW_12X12MM  ; TH_12x12MM  ; Mouser      ; 101-TS6211T2602AC-EV
+| R1         3.3K        ; R4          ; Mouser      ; 660-MF1/4LCT52R332J
+| R2         330         ; R4          ; Mouser      ; 660-MF1/4LCT52R331J
+| R3         270         ; R4          ; Mouser      ; 660-MF1/4LCT52R271J
+| R4         100         ; R4          ; Mouser      ; 660-MF1/4LCT52R101J
+| RV1        POT10K      ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| RV2        POT10K      ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| RV3        POT10K      ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| RV4        POT10K      ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| RV5        POT10K      ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| RV6        POT10K      ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| SW1        SW_12X12MM  ; SW_PUSH_SMALL; Mouser      ; 101-TS6211T2602AC-EV
+| U1         ARDUINOR3   ; ArduinoR3   ;             ;             
 #End Cmp
 
 #Cmp ( order = Value )
-| 0.01UF       C3        ; ~           ; Mouser      ; 594-K103K15X7RF5UH5
-| 0.1UF        C1        ; ~           ; Mouser      ; 594-K104K15X7RF5UH5
-| 0.1UF        C2        ; ~           ; Mouser      ; 594-K104K15X7RF5UH5
-| LED_T3_GREEN D1        ; ~           ; Mouser      ; 696-SSFLX453LGD99
+| 0.01UF       C3        ; C1          ; Mouser      ; 594-K103K15X7RF5UH5
+| 0.1UF        C1        ; C1          ; Mouser      ; 594-K104K15X7RF5UH5
+| 0.1UF        C2        ; C1          ; Mouser      ; 594-K104K15X7RF5UH5
+| LED_T3_GREEN D1        ; LED-3MM     ; Mouser      ; 696-SSFLX453LGD99
 | STEREO_JACK_3.5MM J1        ; JACK_3.5mm  ; Mouser      ; 502-35RASMT4BHNTRX
 | STEREO_JACK_3.5MM J2        ; JACK_3.5mm  ; Mouser      ; 502-35RASMT4BHNTRX
-| ARD_CONN_8   P1        ; ~           ; Mouser      ; 782-A000085 
-| ADR_CONN_6   P2        ; ~           ; Mouser      ; 782-A000084 
-| ARD_CONN_10  P3        ; ~           ; Mouser      ; 782-A000086 
-| ARD_CONN_8   P4        ; ~           ; Mouser      ; 782-A000085 
-| 100          R4        ; ~           ; Mouser      ; 660-MF1/4LCT52R101J
-| 270          R3        ; ~           ; Mouser      ; 660-MF1/4LCT52R271J
-| 330          R2        ; ~           ; Mouser      ; 660-MF1/4LCT52R331J
-| 3.3K         R1        ; ~           ; Mouser      ; 660-MF1/4LCT52R332J
-| POT10K       RV1       ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| POT10K       RV2       ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| POT10K       RV3       ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| POT10K       RV4       ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| POT10K       RV5       ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| POT10K       RV6       ; ALPS-10x10mm; Mouser      ; 688-RK09K1130A5R
-| SW_12X12MM   SW1       ; TH_12x12MM  ; Mouser      ; 101-TS6211T2602AC-EV
+| 100          R4        ; R4          ; Mouser      ; 660-MF1/4LCT52R101J
+| 270          R3        ; R4          ; Mouser      ; 660-MF1/4LCT52R271J
+| 330          R2        ; R4          ; Mouser      ; 660-MF1/4LCT52R331J
+| 3.3K         R1        ; R4          ; Mouser      ; 660-MF1/4LCT52R332J
+| POT10K       RV1       ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| POT10K       RV2       ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| POT10K       RV3       ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| POT10K       RV4       ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| POT10K       RV5       ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| POT10K       RV6       ; POT_CMS     ; Mouser      ; 688-RK09K1130A5R
+| SW_12X12MM   SW1       ; SW_PUSH_SMALL; Mouser      ; 101-TS6211T2602AC-EV
+| ARDUINOR3    U1        ; ArduinoR3   ;             ;             
 #End Cmp
 
 #End List

@@ -1,21 +1,21 @@
-update=11/30/2014 5:35:10 PM
+update=1/10/2015 4:14:46 PM
 version=1
 last_client=eeschema
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=ArduSynth.net
 UseCmpFile=0
-PadDrill=1.000000000000
-PadDrillOvalY=1.000000000000
-PadSizeH=1.800000000000
-PadSizeV=1.800000000000
+PadDrill=3.175000000000
+PadDrillOvalY=3.175000000000
+PadSizeH=3.175000000000
+PadSizeV=3.175000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -28,7 +28,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=../CustomLibs;C:/Users/Carlos/Documents/KiCadProjects/ArduSynth/EIFLibrary
+LibDir=C:/Users/Carlos/Documents/ArduSynth/Hardware/EIFLibrary
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -50,6 +50,7 @@ LibName18=JACK_3p5mm
 LibName19=ALPS-10x10mm
 LibName20=JACK_3.5mm
 LibName21=TH_12x12MM
+LibName22=ArduinoR3
 [eeschema]
 version=1
 LibDir=EIFLibrary
@@ -102,3 +103,4 @@ LibName40=Resistor_3300
 LibName41=Capacitor_0p01uf
 LibName42=Capacitor_0p1uf
 LibName43=sw_12x12mm
+LibName44=arduinor3

@@ -1,0 +1,277 @@
+PCBNEW-LibModule-V1  1/10/2015 2:30:53 PM
+# encoding utf-8
+Units mm
+$INDEX
+ArduinoR3
+$EndINDEX
+$MODULE ArduinoR3
+Po 0 0 0 15 54B18B73 00000000 ~~
+Li ArduinoR3
+Sc 0
+AR 
+Op 0 0 0
+T0 1.27 -1.27 1 1 0 0.15 N I 21 N "U?"
+T1 5.08 -50.8 1 1 0 0.15 N I 21 N "ArduinoR3"
+DS 66.04 -51.816 64.516 -53.34 0.15 21
+DS 0 0 66.04 0 0.15 21
+DS 66.04 0 66.04 -2.54 0.15 21
+DS 66.04 -2.54 68.58 -5.08 0.15 21
+DS 68.58 -5.08 68.58 -37.846 0.15 21
+DS 68.58 -37.846 66.04 -40.386 0.15 21
+DS 66.04 -40.386 66.04 -51.816 0.15 21
+DS 64.516 -53.34 0 -53.34 0.15 21
+DS 0 -53.34 0 0 0.15 21
+$PAD
+Sh "" C 3.175 3.175 0 0 900
+Dr 3.175 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 15.24 -50.8
+$EndPAD
+$PAD
+Sh "" C 3.175 3.175 0 0 900
+Dr 3.175 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 13.97 -2.54
+$EndPAD
+$PAD
+Sh "" C 3.175 3.175 0 0 900
+Dr 3.175 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 66.04 -7.62
+$EndPAD
+$PAD
+Sh "1" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 27.94 -2.54
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 30.5 -2.5
+$EndPAD
+$PAD
+Sh "3" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 33.02 -2.54
+$EndPAD
+$PAD
+Sh "4" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 35.56 -2.54
+$EndPAD
+$PAD
+Sh "5" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 38.1 -2.54
+$EndPAD
+$PAD
+Sh "6" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40.64 -2.54
+$EndPAD
+$PAD
+Sh "7" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 43.18 -2.54
+$EndPAD
+$PAD
+Sh "8" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 45.72 -2.54
+$EndPAD
+$PAD
+Sh "9" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 50.8 -2.54
+$EndPAD
+$PAD
+Sh "10" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 53.34 -2.54
+$EndPAD
+$PAD
+Sh "11" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 55.88 -2.54
+$EndPAD
+$PAD
+Sh "12" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 58.42 -2.54
+$EndPAD
+$PAD
+Sh "13" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 60.96 -2.54
+$EndPAD
+$PAD
+Sh "14" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 63.5 -2.54
+$EndPAD
+$PAD
+Sh "15" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 63.5 -50.8
+$EndPAD
+$PAD
+Sh "16" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 60.96 -50.8
+$EndPAD
+$PAD
+Sh "17" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 58.42 -50.8
+$EndPAD
+$PAD
+Sh "18" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 55.88 -50.8
+$EndPAD
+$PAD
+Sh "19" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 53.34 -50.8
+$EndPAD
+$PAD
+Sh "20" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 50.8 -50.8
+$EndPAD
+$PAD
+Sh "21" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 48.26 -50.8
+$EndPAD
+$PAD
+Sh "22" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 45.72 -50.8
+$EndPAD
+$PAD
+Sh "23" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 41.656 -50.8
+$EndPAD
+$PAD
+Sh "24" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 39.116 -50.8
+$EndPAD
+$PAD
+Sh "25" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 36.576 -50.8
+$EndPAD
+$PAD
+Sh "26" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 34.036 -50.8
+$EndPAD
+$PAD
+Sh "27" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 31.496 -50.8
+$EndPAD
+$PAD
+Sh "28" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 28.956 -50.8
+$EndPAD
+$PAD
+Sh "29" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 26.416 -50.8
+$EndPAD
+$PAD
+Sh "30" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.876 -50.8
+$EndPAD
+$PAD
+Sh "31" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.336 -50.8
+$EndPAD
+$PAD
+Sh "32" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 18.796 -50.8
+$EndPAD
+$PAD
+Sh "" C 3.175 3.175 0 0 900
+Dr 3.175 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 66.04 -35.56
+$EndPAD
+$EndMODULE ArduinoR3
+$EndLIBRARY
